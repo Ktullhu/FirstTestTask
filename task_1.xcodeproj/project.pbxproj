@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274563371B484B820042A234 /* ProtectionUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 274563361B484B820042A234 /* ProtectionUnit.m */; };
+		2745633B1B48518B0042A234 /* RegenerationUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2745633A1B48518B0042A234 /* RegenerationUnit.m */; };
+		2745633F1B4852B00042A234 /* AgilityUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2745633E1B4852B00042A234 /* AgilityUnit.m */; };
+		274563491B4859020042A234 /* UnitsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 274563481B4859020042A234 /* UnitsFactory.m */; };
+		2745634D1B486C420042A234 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 2745634C1B486C420042A234 /* Game.m */; };
+		275282EF1B4922940084DF9F /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 275282EE1B4922940084DF9F /* Triangle.m */; };
+		275282F51B4931430084DF9F /* MatrixVectorBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 275282F41B4931430084DF9F /* MatrixVectorBase.m */; };
+		275282F91B4931FC0084DF9F /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 275282F81B4931FC0084DF9F /* Matrix.m */; };
+		275282FD1B4937AB0084DF9F /* NSObject+protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 275282FC1B4937AB0084DF9F /* NSObject+protected.m */; };
+		275283011B493B970084DF9F /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 275283001B493B970084DF9F /* Vector.m */; };
+		275283041B493FCF0084DF9F /* OperationsShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 275283031B493FCF0084DF9F /* OperationsShow.m */; };
+		278A69831B47D6A800720BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 278A69821B47D6A800720BAF /* main.m */; };
+		278A698B1B47D7C100720BAF /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 278A698A1B47D7C100720BAF /* Warrior.m */; };
+		278A698F1B47DBEB00720BAF /* DamageUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 278A698E1B47DBEB00720BAF /* DamageUnit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		278A697D1B47D6A800720BAF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		274563351B484B820042A234 /* ProtectionUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtectionUnit.h; path = Units/ProtectionUnit/ProtectionUnit.h; sourceTree = "<group>"; };
+		274563361B484B820042A234 /* ProtectionUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProtectionUnit.m; path = Units/ProtectionUnit/ProtectionUnit.m; sourceTree = "<group>"; };
+		274563391B48518B0042A234 /* RegenerationUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegenerationUnit.h; path = Units/RegenerationUnit/RegenerationUnit.h; sourceTree = "<group>"; };
+		2745633A1B48518B0042A234 /* RegenerationUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegenerationUnit.m; path = Units/RegenerationUnit/RegenerationUnit.m; sourceTree = "<group>"; };
+		2745633D1B4852B00042A234 /* AgilityUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgilityUnit.h; path = AgilityUnit/AgilityUnit.h; sourceTree = "<group>"; };
+		2745633E1B4852B00042A234 /* AgilityUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgilityUnit.m; path = AgilityUnit/AgilityUnit.m; sourceTree = "<group>"; };
+		274563471B4859020042A234 /* UnitsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnitsFactory.h; path = UnitsFactory/UnitsFactory.h; sourceTree = "<group>"; };
+		274563481B4859020042A234 /* UnitsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnitsFactory.m; path = UnitsFactory/UnitsFactory.m; sourceTree = "<group>"; };
+		2745634B1B486C420042A234 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = Game/Game.h; sourceTree = "<group>"; };
+		2745634C1B486C420042A234 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = Game/Game.m; sourceTree = "<group>"; };
+		275282ED1B4922940084DF9F /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = Triangle/Triangle.h; sourceTree = "<group>"; };
+		275282EE1B4922940084DF9F /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Triangle.m; path = Triangle/Triangle.m; sourceTree = "<group>"; };
+		275282F31B4931430084DF9F /* MatrixVectorBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatrixVectorBase.h; path = MatrixVector/MatrixVectorBase/MatrixVectorBase.h; sourceTree = "<group>"; };
+		275282F41B4931430084DF9F /* MatrixVectorBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatrixVectorBase.m; path = MatrixVector/MatrixVectorBase/MatrixVectorBase.m; sourceTree = "<group>"; };
+		275282F71B4931FC0084DF9F /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = MatrixVector/Matrix/Matrix.h; sourceTree = "<group>"; };
+		275282F81B4931FC0084DF9F /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Matrix.m; path = MatrixVector/Matrix/Matrix.m; sourceTree = "<group>"; };
+		275282FB1B4937AB0084DF9F /* NSObject+protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+protected.h"; path = "MatrixVector/MatrixVectorBase/NSObject+protected.h"; sourceTree = "<group>"; };
+		275282FC1B4937AB0084DF9F /* NSObject+protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+protected.m"; path = "MatrixVector/MatrixVectorBase/NSObject+protected.m"; sourceTree = "<group>"; };
+		275282FF1B493B970084DF9F /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector.h; path = MatrixVector/Vector/Vector.h; sourceTree = "<group>"; };
+		275283001B493B970084DF9F /* Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vector.m; path = MatrixVector/Vector/Vector.m; sourceTree = "<group>"; };
+		275283021B493FCF0084DF9F /* OperationsShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationsShow.h; path = MatrixVector/OperationsShow.h; sourceTree = "<group>"; };
+		275283031B493FCF0084DF9F /* OperationsShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationsShow.m; path = MatrixVector/OperationsShow.m; sourceTree = "<group>"; };
+		278A697F1B47D6A800720BAF /* task_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = task_1; sourceTree = BUILT_PRODUCTS_DIR; };
+		278A69821B47D6A800720BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		278A69891B47D7C100720BAF /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Warrior.h; path = WarriorBase/Warrior.h; sourceTree = "<group>"; };
+		278A698A1B47D7C100720BAF /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Warrior.m; path = WarriorBase/Warrior.m; sourceTree = "<group>"; };
+		278A698D1B47DBEB00720BAF /* DamageUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DamageUnit.h; path = Units/Berserk/DamageUnit.h; sourceTree = "<group>"; };
+		278A698E1B47DBEB00720BAF /* DamageUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DamageUnit.m; path = Units/Berserk/DamageUnit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278A697C1B47D6A800720BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274563381B484B890042A234 /* ProtectionUnit */ = {
+			isa = PBXGroup;
+			children = (
+				274563351B484B820042A234 /* ProtectionUnit.h */,
+				274563361B484B820042A234 /* ProtectionUnit.m */,
+			);
+			name = ProtectionUnit;
+			sourceTree = "<group>";
+		};
+		2745633C1B4851910042A234 /* RegenerationUnit */ = {
+			isa = PBXGroup;
+			children = (
+				274563391B48518B0042A234 /* RegenerationUnit.h */,
+				2745633A1B48518B0042A234 /* RegenerationUnit.m */,
+			);
+			name = RegenerationUnit;
+			sourceTree = "<group>";
+		};
+		274563401B4852BB0042A234 /* AgilityUnit */ = {
+			isa = PBXGroup;
+			children = (
+				2745633D1B4852B00042A234 /* AgilityUnit.h */,
+				2745633E1B4852B00042A234 /* AgilityUnit.m */,
+			);
+			name = AgilityUnit;
+			sourceTree = "<group>";
+		};
+		2745634A1B485B550042A234 /* UnitsFactory */ = {
+			isa = PBXGroup;
+			children = (
+				274563471B4859020042A234 /* UnitsFactory.h */,
+				274563481B4859020042A234 /* UnitsFactory.m */,
+			);
+			name = UnitsFactory;
+			sourceTree = "<group>";
+		};
+		2745634E1B486C460042A234 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				2745634B1B486C420042A234 /* Game.h */,
+				2745634C1B486C420042A234 /* Game.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		275282F01B4922980084DF9F /* Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				275282ED1B4922940084DF9F /* Triangle.h */,
+				275282EE1B4922940084DF9F /* Triangle.m */,
+			);
+			name = Triangle;
+			sourceTree = "<group>";
+		};
+		275282F11B4930890084DF9F /* MatrixVector */ = {
+			isa = PBXGroup;
+			children = (
+				275282FE1B493B770084DF9F /* Vector */,
+				275282FA1B4931FF0084DF9F /* Matrix */,
+				275282F61B4931480084DF9F /* MatrixVectorBase */,
+				275283021B493FCF0084DF9F /* OperationsShow.h */,
+				275283031B493FCF0084DF9F /* OperationsShow.m */,
+			);
+			name = MatrixVector;
+			sourceTree = "<group>";
+		};
+		275282F21B4930E00084DF9F /* WarriorGame */ = {
+			isa = PBXGroup;
+			children = (
+				2745634E1B486C460042A234 /* Game */,
+				2745634A1B485B550042A234 /* UnitsFactory */,
+				278A698C1B47D7C800720BAF /* WarriorBase */,
+				278A69901B47DBF100720BAF /* Units */,
+			);
+			name = WarriorGame;
+			sourceTree = "<group>";
+		};
+		275282F61B4931480084DF9F /* MatrixVectorBase */ = {
+			isa = PBXGroup;
+			children = (
+				275282F31B4931430084DF9F /* MatrixVectorBase.h */,
+				275282F41B4931430084DF9F /* MatrixVectorBase.m */,
+				275282FB1B4937AB0084DF9F /* NSObject+protected.h */,
+				275282FC1B4937AB0084DF9F /* NSObject+protected.m */,
+			);
+			name = MatrixVectorBase;
+			sourceTree = "<group>";
+		};
+		275282FA1B4931FF0084DF9F /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				275282F71B4931FC0084DF9F /* Matrix.h */,
+				275282F81B4931FC0084DF9F /* Matrix.m */,
+			);
+			name = Matrix;
+			sourceTree = "<group>";
+		};
+		275282FE1B493B770084DF9F /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				275282FF1B493B970084DF9F /* Vector.h */,
+				275283001B493B970084DF9F /* Vector.m */,
+			);
+			name = Vector;
+			sourceTree = "<group>";
+		};
+		278A69761B47D6A800720BAF = {
+			isa = PBXGroup;
+			children = (
+				278A69811B47D6A800720BAF /* task_1 */,
+				278A69801B47D6A800720BAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		278A69801B47D6A800720BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278A697F1B47D6A800720BAF /* task_1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278A69811B47D6A800720BAF /* task_1 */ = {
+			isa = PBXGroup;
+			children = (
+				275282F21B4930E00084DF9F /* WarriorGame */,
+				275282F11B4930890084DF9F /* MatrixVector */,
+				275282F01B4922980084DF9F /* Triangle */,
+				278A69821B47D6A800720BAF /* main.m */,
+			);
+			path = task_1;
+			sourceTree = "<group>";
+		};
+		278A698C1B47D7C800720BAF /* WarriorBase */ = {
+			isa = PBXGroup;
+			children = (
+				278A69891B47D7C100720BAF /* Warrior.h */,
+				278A698A1B47D7C100720BAF /* Warrior.m */,
+			);
+			name = WarriorBase;
+			sourceTree = "<group>";
+		};
+		278A69901B47DBF100720BAF /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				274563401B4852BB0042A234 /* AgilityUnit */,
+				2745633C1B4851910042A234 /* RegenerationUnit */,
+				274563381B484B890042A234 /* ProtectionUnit */,
+				278A69911B47DBFB00720BAF /* DamageUnit */,
+			);
+			name = Units;
+			sourceTree = "<group>";
+		};
+		278A69911B47DBFB00720BAF /* DamageUnit */ = {
+			isa = PBXGroup;
+			children = (
+				278A698D1B47DBEB00720BAF /* DamageUnit.h */,
+				278A698E1B47DBEB00720BAF /* DamageUnit.m */,
+			);
+			name = DamageUnit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		278A697E1B47D6A800720BAF /* task_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278A69861B47D6A800720BAF /* Build configuration list for PBXNativeTarget "task_1" */;
+			buildPhases = (
+				278A697B1B47D6A800720BAF /* Sources */,
+				278A697C1B47D6A800720BAF /* Frameworks */,
+				278A697D1B47D6A800720BAF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = task_1;
+			productName = task_1;
+			productReference = 278A697F1B47D6A800720BAF /* task_1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278A69771B47D6A800720BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Mike;
+				TargetAttributes = {
+					278A697E1B47D6A800720BAF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 278A697A1B47D6A800720BAF /* Build configuration list for PBXProject "task_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 278A69761B47D6A800720BAF;
+			productRefGroup = 278A69801B47D6A800720BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278A697E1B47D6A800720BAF /* task_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278A697B1B47D6A800720BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2745634D1B486C420042A234 /* Game.m in Sources */,
+				2745633F1B4852B00042A234 /* AgilityUnit.m in Sources */,
+				275282FD1B4937AB0084DF9F /* NSObject+protected.m in Sources */,
+				275282F51B4931430084DF9F /* MatrixVectorBase.m in Sources */,
+				275282F91B4931FC0084DF9F /* Matrix.m in Sources */,
+				275282EF1B4922940084DF9F /* Triangle.m in Sources */,
+				2745633B1B48518B0042A234 /* RegenerationUnit.m in Sources */,
+				278A69831B47D6A800720BAF /* main.m in Sources */,
+				278A698F1B47DBEB00720BAF /* DamageUnit.m in Sources */,
+				278A698B1B47D7C100720BAF /* Warrior.m in Sources */,
+				275283011B493B970084DF9F /* Vector.m in Sources */,
+				274563371B484B820042A234 /* ProtectionUnit.m in Sources */,
+				275283041B493FCF0084DF9F /* OperationsShow.m in Sources */,
+				274563491B4859020042A234 /* UnitsFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		278A69841B47D6A800720BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		278A69851B47D6A800720BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		278A69871B47D6A800720BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		278A69881B47D6A800720BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278A697A1B47D6A800720BAF /* Build configuration list for PBXProject "task_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278A69841B47D6A800720BAF /* Debug */,
+				278A69851B47D6A800720BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278A69861B47D6A800720BAF /* Build configuration list for PBXNativeTarget "task_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278A69871B47D6A800720BAF /* Debug */,
+				278A69881B47D6A800720BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 278A69771B47D6A800720BAF /* Project object */;
+}
