@@ -15,4 +15,9 @@
     
 }
 
+- (void) finishAddOperation
+{
+    
+}
+
 @end

@@ -11,6 +11,6 @@
 @interface Vector : NSObject <MatrixVectorBase>
 
 - (void) addVector:(NSMutableArray*)vector bySecondVector:(NSMutableArray*)secondVector;
-
+- (void) mullVector:(NSMutableArray*)vector bySecondVector:(NSMutableArray*)secondVector;
 
 @end

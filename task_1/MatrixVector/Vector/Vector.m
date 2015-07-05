@@ -37,6 +37,25 @@
    // });
 }
 
+- (void) mullMatrix:(NSMutableArray *)matrix byVector:(NSMutableArray *)vector
+{
+    //  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    NSInteger buferData = 0;
+    self.dataResult = [[NSMutableArray alloc] init];
+    for (int i=0; i<matrix.count; i++) {
+        NSArray *row = matrix[i];
+        buferData = 0;
+        for (int j=0; j<matrix.count; j++) {
+            NSInteger dataFirst = [row[j] integerValue];
+            NSInteger dataSecond = [vector[j] integerValue];
+            buferData+=dataFirst*dataSecond;
+        }
+        [self.dataResult addObject:@(buferData)];
+    }
+    [self finishMullOperation];
+    // });
+}
+
 - (void) finishMullOperation
 {
    // dispatch_async(dispatch_get_main_queue(), ^{
@@ -47,12 +66,19 @@
 
 }
 
+- (void) finishAddOperation
+{
+    if (self.delegate && [self.delegate respondsToSelector:@selector(finishedAddOperation)]) {
+        [self.delegate finishedAddOperation];
+    }
+}
+
 - (void) addVector:(NSMutableArray *)vector bySecondVector:(NSMutableArray *)secondVector
 {
    // dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-    self.dataResult = [[NSMutableArray alloc] initWithCapacity:vector.count];
+    self.dataResult = [[NSMutableArray alloc] init];
     for (int i=0; i<vector.count; i++) {
-        dataResult[i] = @([vector[i] integerValue] + [vector[i] integerValue]);
+        [dataResult addObject:@([vector[i] integerValue] + [vector[i] integerValue])];
     }
     [self finishMullOperation];
   //  });

@@ -72,8 +72,6 @@
         }
         [self finishMullOperation];
    // });
-    
-
 }
 
 - (void) finishMullOperation

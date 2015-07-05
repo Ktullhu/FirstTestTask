@@ -10,4 +10,6 @@
 
 @interface Matrix :NSObject <MatrixVectorBase>
 
+- (void) mullMatrix:(NSMutableArray*)firstMatrix bySecondMatrix:(NSMutableArray*)secondMatrix;
+
 @end

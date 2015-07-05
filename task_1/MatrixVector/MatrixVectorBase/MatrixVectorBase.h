@@ -12,7 +12,7 @@
 @protocol FinishOpreationDelegate <NSObject>
 
 - (void) finishedMullOperation;
-
+- (void) finishedAddOperation;
 @end
 
 @protocol MatrixVectorBase <NSObject>
@@ -23,8 +23,7 @@
 
 - (instancetype) initWithRandomDataForSize:(NSInteger)size;
 @optional
-- (void) mullMatrix:(NSMutableArray*)firstMatrix bySecondMatrix:(NSMutableArray*)secondMatrix;
+
 - (void) mullMatrix:(NSMutableArray*)matrix byVector:(NSMutableArray*)vector;
-- (void) mullVector:(NSMutableArray*)vector bySecondVector:(NSMutableArray*)secondVector;
 
 @end

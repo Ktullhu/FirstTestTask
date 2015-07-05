@@ -24,15 +24,22 @@
     thirdMatrix.delegate = self;
     Vector *thirdVector = [[Vector alloc] initWithRandomDataForSize:40];
     thirdVector.delegate = self;
+    
     [firstMatrix mullMatrix:firstMatrix.data bySecondMatrix:secondMatrix.data];
-   // [firstVector mullVector:firstVector.data bySecondVector:secondVector.data];
-    //[thirdMatrix mullMatrix:thirdMatrix.data byVector:thirdVector.data];
+    [firstVector mullVector:firstVector.data bySecondVector:secondVector.data];
+    [thirdMatrix mullMatrix:thirdMatrix.data byVector:thirdVector.data];
+    [firstVector addVector:secondVector.data bySecondVector:firstVector.data];
 }
 
 
 - (void) finishedMullOperation
 {
     NSLog(@"mull operation is finished");
+}
+
+- (void) finishedAddOperation
+{
+    NSLog(@"add operation is finished");
 }
 
 @end

@@ -11,5 +11,5 @@
 @interface NSObject(Protected)
 
 - (void) finishMullOperation;
-
+- (void) finishAddOperation;
 @end
