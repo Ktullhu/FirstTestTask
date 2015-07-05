@@ -14,7 +14,7 @@
 {
     if (arc4random() % 3 == 2) {
         self.hitPoints -=(damage * 0.75);
-        if (!self.hitPoints) {
+        if ( self.hitPoints <= 0) {
             self.hitPoints = 1;
         }
         if (self.delegate && [self.delegate respondsToSelector:@selector(attackedMessage:fromWarrior:)]) {

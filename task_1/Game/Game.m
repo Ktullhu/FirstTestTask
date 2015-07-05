@@ -63,8 +63,8 @@
     Warrior *attackedWarrior = self.warriorsArray[attackedWarriorIndex];
     [attackedWarrior getDamage:damage];
     
-    if (attackedWarrior.hitPoints) {
-        [attackedWarrior getDamage:[attackedWarrior counterattack]];
+    if (attackedWarrior.hitPoints > 0) {
+        [attackWarrior getDamage:[attackedWarrior counterattack]];
     }
     
     if (arc4random() % 2) {

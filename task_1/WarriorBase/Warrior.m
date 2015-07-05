@@ -44,12 +44,15 @@
 {
     self.hitPoints -= damage;
     
-    float hitPoints = (self.hitPoints <= 0) ? 0 : self.hitPoints;
+    if (self.hitPoints <=0) {
+        self.hitPoints = 0;
+    }
+    
     
     if (self.delegate && [self.delegate respondsToSelector:@selector(attackedMessage:fromWarrior:)]) {
-        [self.delegate refillHealthMessage:[NSString stringWithFormat:@" was attacked with %f points and have %f life points", damage, hitPoints] fromWarrior:self];
+        [self.delegate refillHealthMessage:[NSString stringWithFormat:@" was attacked with %f points and have %f life points", damage, self.hitPoints] fromWarrior:self];
     }
-    if (!hitPoints && self.delegate && [self.delegate respondsToSelector:@selector(removeDeadUnit:)]) {
+    if (!self.hitPoints && self.delegate && [self.delegate respondsToSelector:@selector(removeDeadUnit:)]) {
         [self.delegate removeDeadUnit:self];
     }
 }

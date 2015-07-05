@@ -13,7 +13,7 @@
 - (Warrior*) createRandomUnitWithType:(WariorType)type andDelegate:(id)delegate
 {
     Warrior *warrior;
-    float health = [self getRandomNumberBetween:40 to:50];
+    float health = [self getRandomNumberBetween:50 to:80];
     float damage = [self getRandomNumberBetween:20 to:30];
     warrior = [[DamageUnit alloc] initUnitWithHealth:health andDamage:damage andWariorType:type];
     warrior.delegate = delegate;
